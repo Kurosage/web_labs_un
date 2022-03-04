@@ -1,0 +1,44 @@
+body {
+font: 12px Arial, Helvetica, sans-serif; 
+color: #162a75; 
+background: #3174; 
+}
+
+h2 { margin: 0 16px; }
+div.container {
+width: 100%; 
+background: #ff904b; 
+
+}
+hr {
+    background-color: #8696e8; 
+    color: red; 
+    height: 5px; 
+
+}
+div.header {
+font-size: 32px; 
+text-align: center; 
+padding: 5px;
+background: #8696e8;
+}
+div.menu { 
+font: 16px Arial, Helvetica, sans-serif;   
+background: #ff7c10; 
+float: left; 
+padding: 20px 105px 40.4% 20px;
+max-height :100%;
+}
+div.content {
+background: #ffb36c;
+padding: 20px 250px 100% 100px;
+padding: 10px;
+margin-left: 200px; 
+padding-bottom: 100px;
+
+}
+div.bottomm {
+clear: left; 
+padding: 5px; 
+background: #8696e8; 
+font-size:15px;}
