@@ -26,11 +26,11 @@ header, main, footer {
 header .container, main .container, footer .container { 
 	
 	max-width: 855px;
-	//margin: auto;
+	margin: auto;
 }
 
 header { 
-	background: #3B899B; 
+	background: #15525B; 
 	overflow: auto;
 	font-size:28px;
 	padding:20px;
