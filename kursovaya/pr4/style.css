@@ -1,0 +1,137 @@
+body {
+	background: #15525B;  
+	font-family: 'Droid sans';
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #15205B;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #15205B;
+}
+
+h1, h2, h3, h4 {
+	font-family: Ubuntu;
+	font-size: 120%;
+}
+
+header, main, footer { 
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container { 
+	max-width: 855px;
+	margin: auto;
+}
+
+header { 
+	background: #15525B;  
+	overflow: auto;
+	font-size:28px;
+	padding:20px;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+header nav {
+	font-size:16px;
+	float: right;
+	width: 285px;
+}
+main { 
+	background: #3B899B;  
+	overflow: auto;
+	padding: 20px;
+}
+main .mainic {
+	float: left;
+	width: 570px;
+}
+main .png{
+	float: right;	
+	width: 285px;
+}
+
+main .faq {
+	float: left;
+	width: 855px;
+}
+
+main .faq p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+main h2 {
+	font-size: 120%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+main h3 {
+	margin-top: 40px;
+	margin-bottom: 5px;	
+}
+
+footer {
+	overflow: auto;
+	padding: 10px;
+}
+footer .contact {
+	float: left;
+	width: 570px;
+}
+ 
+footer .sitemap {
+	float: right;	
+	width: 285px;
+}
+.tabs a span {
+	display: inline-block; 
+	border-radius: 5px 5px 0 0; 
+	width: 120px; 
+	margin-right: 10px; 
+	text-align: center; 
+	background: #A3BACC; 
+	padding: 5px;
+}
+.tabs a span.active { 
+	background: #345E7F; 
+}
+.content {
+	background: #A3BACC;
+}
+
+.content li{
+	list-style: none;
+	margin:  10px;
+	padding-left: 5px;
+	box-shadow: 0 0 0 10px #345E7F;
+}
+
+.content input {
+	width: 40%;
+	height: 48px;
+	margin: 5px;
+	font-family: Ubuntu;
+	text-align: justify;
+	font-size:  24px;
+	box-shadow: 0 0 0 10px #345E7F;
+}
+.content button {
+	height: 50px;
+	width: 10%;
+	min-width: 90px;
+	font-size: 16px;
+	margin:10px;
+	font-family: Ubuntu;
+	font-weight: 900;
+	background: white;
+	box-shadow: 0px 0px 0px 10px #345E7F;
+}
