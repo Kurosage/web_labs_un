@@ -35,7 +35,7 @@ $(".tabs a span").toArray().forEach(function (element) {
 		else if ($element.parent().is(":nth-child(3)")) { 
 			$(".content").append(
 				'<input type="text" class="inp">'+
-				'<button class="btn">Добавить</button>'
+				'<button class="btn">+</button>'
 			);
 			var newToDo;
 			$('.btn').on('click',function(){
