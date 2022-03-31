@@ -35,29 +35,7 @@ $(".tabs a span").toArray().forEach(function (element) {
 		else if ($element.parent().is(":nth-child(3)"))
 		{
 			console.log("Щелчок на вкладке Теги");
-			var organizedByTag =[ 
-			{ 
-			"name": "покупки", 
-			"toDos": ["Купить продукты"] 
-			}, 
-			{ 
-			"name": "рутина", 
-			"toDos": ["Купить продукты", "Вывести Грейси на прогулку в парк"] }, 
-			{ 
-			"name": "писательство", 
-			"toDos": ["Сделать несколько новых задач", "Закончить писать книгу"] }, 
-			{ 
-			"name": "работа", 
-			"toDos": ["Сделать несколько новых задач", "Подготовиться к лекции в понедельник","Ответить на электронные письма", "Закончить писать книгу"] }, 
-			{ 
-			"name": " преподавание", 
-			"toDos": ["Подготовиться к лекции в понедельник"] 
-			}, 
-			{ 
-			"name": "питомцы", 
-			"toDos": ["Вывести Грейси на прогулку в парк "] 
-			} 
-			]
+			var organizedByTag =organizeByTag(toDoObjects);
 			organizedByTag.forEach(function (tag) { 
 			var $tagName = $("<h3>").text(tag.name), 
 			$content = $("<ul>"); 
