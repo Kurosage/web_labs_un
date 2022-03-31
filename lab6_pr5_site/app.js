@@ -86,7 +86,7 @@ $(".tabs a span").toArray().forEach(function (element) {
 					$tagInput = $("<input>").addClass("tags"),
 					$tagLabel = $("<p>").text("Тэги: "),
 					$button = $("<button>").text("+");
-				$button.on("click", function () {
+					$button.on("click", function () {
 					var description = $input.val(),
 					// разделение в соответствии с запятыми
 					tags = $tagInput.val().split(","); 
@@ -100,6 +100,16 @@ $(".tabs a span").toArray().forEach(function (element) {
 				});
 				$("main .content").append($inputLabel).append($input).append($tagLabel).append($tagInput).append($button); 
 			
+		}
+		else if ($element.parent().is(":nth-child(5)"))
+		{
+			
+			var $button = $("<button>").text("Перейти на  сайт со слайдшоу");
+			 $button.on("click", function () {
+					//var $clickc = $("<a>").attr("href",flickr.html);
+					window.location.href = "flickr.html";
+			 	});
+ 			$("main .content").append($button); 
 		}
 		return false;
 	})

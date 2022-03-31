@@ -75,6 +75,7 @@ main h2 {
 }
 
 main h3 {
+	
 	margin-top: 40px;
 	margin-bottom: 5px;	
 }
@@ -127,8 +128,8 @@ footer .sitemap {
 	box-shadow: 0 0 0 10px #ddd;
 }
 .content button {
-	height: 40px;
-	width: 11%;
+	    height: 35px;
+	width: auto;
 	min-width: 90px;
 	font-size: 16px;
 	margin:10px;
@@ -136,4 +137,9 @@ footer .sitemap {
 	font-weight: 900;
 	background: white;
 	box-shadow: 0px 0px 0px 10.5px #ddd;
+	padding-top: 7px;
+}
+
+.img {
+	background-image: red;
 }
