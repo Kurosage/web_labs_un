@@ -12,11 +12,9 @@ var toDos = [
 $("document").ready( function(){
 
 $(".tabs a span").toArray().forEach(function (element) { 
-	// создаем обработчик щелчков для этого элемента 
+
 	$(element).on("click", function () {
-		// поскольку мы используем версию элемента jQuery,
-		// нужно создать временную переменную,
-		// чтобы избежать постоянного обновления
+
 		var $element = $(element);
 		$(".tabs a span").removeClass("active"); 
 		$(element).addClass("active");
