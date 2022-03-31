@@ -135,11 +135,7 @@ footer .sitemap {
 	margin:10px;
 	font-family: Ubuntu;
 	font-weight: 900;
-	background: white;
-	box-shadow: 0px 0px 0px 10.5px #ddd;
+	background: #e87c89;
+	box-shadow: 0px 0px 0px 10.5px #e87c89;
 	padding-top: 7px;
-}
-
-.img {
-	background-image: red;
 }
