@@ -51,3 +51,8 @@ $(".tabs a span").toArray().forEach(function (element) {
 		return false;
 	})
 })
+
+
+$(".tabs a:first-child span").trigger("click");
+
+})
